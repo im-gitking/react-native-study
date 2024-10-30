@@ -1,14 +1,10 @@
 import { Text, View } from "react-native";
-import ViewComponent from "../components/ViewComponent";
-import TextComponent from "../components/TextComponent";
-import ImageComponent from "../components/ImageComponent";
+import CardComponent from "../components/CardComponent";
 
 const Index = () => {
   return (
     <View>
-      <TextComponent />
-      <ViewComponent />
-      <ImageComponent />
+      <CardComponent />
     </View>
   );
 };
