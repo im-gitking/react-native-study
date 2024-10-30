@@ -1,10 +1,10 @@
 import { Text, View } from "react-native";
-import CarComponent from "../components/CarComponent";
+import InlineStyle from "../components/InlineStyle";
 
 const Index = () => {
   return (
     <View>
-      <CarComponent />
+      <InlineStyle />
     </View>
   );
 };
