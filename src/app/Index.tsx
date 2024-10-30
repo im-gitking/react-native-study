@@ -1,14 +1,12 @@
 import { Text, View } from "react-native";
-import InlineStyle from "../components/InlineStyle";
-import InternalStyle from "../components/InternalStyle";
-import ExternalStyle from "../components/ExternalStyle";
+import ListData from "../components/ListData";
+import ArrayOfObject from "../components/ArrayOfObject";
 
 const Index = () => {
   return (
     <View>
-      {/* <InlineStyle /> */}
-      {/* <InternalStyle /> */}
-      <ExternalStyle />
+      {/* <ListData /> */}
+      <ArrayOfObject />
     </View>
   );
 };
