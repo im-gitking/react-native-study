@@ -1,14 +1,10 @@
 import { Text, View } from "react-native";
-import ListData from "../components/ListData";
-import ArrayOfObject from "../components/ArrayOfObject";
-import HugeComponent from "../components/HugeComponent";
+import ParentComponet from "../components/ParentComponet";
 
 const Index = () => {
   return (
     <View>
-      {/* <ListData /> */}
-      {/* <ArrayOfObject /> */}
-      <HugeComponent />
+      <ParentComponet />
     </View>
   );
 };
