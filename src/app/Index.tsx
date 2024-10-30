@@ -1,10 +1,12 @@
 import { Text, View } from "react-native";
 import InlineStyle from "../components/InlineStyle";
+import InternalStyle from "../components/InternalStyle";
 
 const Index = () => {
   return (
     <View>
-      <InlineStyle />
+      {/* <InlineStyle /> */}
+      <InternalStyle />
     </View>
   );
 };
