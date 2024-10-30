@@ -1,10 +1,10 @@
 import { Text, View } from "react-native";
-import CardComponent from "../components/CardComponent";
+import DynamicComponent from "../components/DynamicComponent";
 
 const Index = () => {
   return (
     <View>
-      <CardComponent />
+      <DynamicComponent />
     </View>
   );
 };
